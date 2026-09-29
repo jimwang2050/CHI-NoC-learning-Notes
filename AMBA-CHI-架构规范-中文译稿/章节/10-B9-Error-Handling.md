@@ -595,7 +595,7 @@ Data_Check 和 Check_Type 属性用于指示 DAT 数据包中是否支持 DataCh
 
 图 B9.1 示出了可以使用奇偶校验的位置。
 
-![图 p383](images/fig_p0383_1.png)
+![图 p383](../images/fig_p0383_1.png)
 
 图 B9.1：AMBA 中奇偶校验的使用
 

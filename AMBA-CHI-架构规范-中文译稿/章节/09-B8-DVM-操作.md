@@ -58,9 +58,9 @@ Comp
 
 RN-F0 MN
 
-![Figure p341](images/fig_p0341_1.png)
+![Figure p341](../images/fig_p0341_1.png)
 
-![Figure p341](images/fig_p0341_2.png)
+![Figure p341](../images/fig_p0341_2.png)
 
 图 B8.1：Non-sync 类型 DVM 事务流程
 
@@ -115,7 +115,7 @@ Comp
 
 RN-F0 MN
 
-![Figure p343](images/fig_p0343_1.png)
+![Figure p343](../images/fig_p0343_1.png)
 
 图 B8.2：Sync DVM 事务流程
 

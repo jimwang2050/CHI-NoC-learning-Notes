@@ -114,7 +114,7 @@ a 对于 Data Pull 请求，Snoop 响应可以是 SnpResp 或 SnpRespData 或 Sn
 
 图 B3.1 是一个简单事务流的示例，展示了如何为请求和响应确定 TgtID。
 
-![Figure p188](images/fig_p0188_1.png)
+![Figure p188](../images/fig_p0188_1.png)
 
 图 B3.1：不进行重映射时的 TgtID 分配
 
@@ -136,7 +136,7 @@ a 对于 Data Pull 请求，Snoop 响应可以是 SnpResp 或 SnpRespData 或 Sn
 >
 > 仅对来自 Request Node 的请求的 TgtID 进行重映射。事务流中所有其他数据包中的 TgtID 均以与 B3.4.1 简单流类似的方式确定。
 
-![Figure p189](images/fig_p0189_1.png)
+![Figure p189](../images/fig_p0189_1.png)
 
 图 B3.2：带重映射逻辑的 TgtID 分配
 
@@ -157,7 +157,7 @@ a 对于 Data Pull 请求，Snoop 响应可以是 SnpResp 或 SnpRespData 或 Sn
 
 图 B3.3 展示了请求被重试的情况。
 
-![Figure p190](images/fig_p0190_1.png)
+![Figure p190](../images/fig_p0190_1.png)
 
 图 B3.3：TgtID 的重映射与被重试的请求
 
