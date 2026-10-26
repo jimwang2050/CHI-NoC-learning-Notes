@@ -57,12 +57,40 @@ AMBA CHI 与 NoC 学习笔记，主要用于整理 CHI 协议、NoC 基础、SoC
 
 本仓库覆盖两类 AMBA 规范，每类均提供「中文译稿」与「评注版」两个版本：
 
-| 协议 | 目录 | 内容 | 适合谁 |
-|---|---|---|---|
-| **CHI**<br>IHI0050H | [AMBA-CHI-架构规范-中文译稿](./AMBA-CHI-架构规范-中文译稿) | 规范全文中文译稿（MD / PDF / HTML / DOCX / EPUB），保留原文结构与图 | 想通读规范原文的人 |
-| **CHI**<br>IHI0050H | [AMBA-CHI-架构规范-评注版](./AMBA-CHI-架构规范-评注版) | 逐章评注（B1–B16）+ 6 篇跨章专题 + 4 篇实现与落地 + 3 篇附录 | 想快速抓重点、按问题查章节的人 |
-| **AXI**<br>IHI0022L | [AMBA-AXI-协议规范-中文译稿](./AMBA-AXI-协议规范-中文译稿) | 规范全文中文译稿（MD / PDF / 320 张配图），保留原文结构与图表 | 想通读 AXI 规范原文的人 |
-| **AXI**<br>IHI0022L | [AMBA-AXI-协议规范-评注版](./AMBA-AXI-协议规范-评注版) | 在译稿基础上逐节评注 354 条：关键点 / 典型场景 / 约束 / 辨析 | 想快速抓重点、按问题查章节的人 |
+<table>
+  <thead>
+    <tr>
+      <th>协议</th>
+      <th>目录</th>
+      <th>内容</th>
+      <th>适合谁</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2"><strong>CHI</strong><br>IHI0050H</td>
+      <td><a href="./AMBA-CHI-架构规范-中文译稿">AMBA-CHI-架构规范-中文译稿</a></td>
+      <td>规范全文中文译稿（MD / PDF / HTML / DOCX / EPUB），保留原文结构与图</td>
+      <td>想通读规范原文的人</td>
+    </tr>
+    <tr>
+      <td><a href="./AMBA-CHI-架构规范-评注版">AMBA-CHI-架构规范-评注版</a></td>
+      <td>逐章评注（B1–B16）+ 6 篇跨章专题 + 4 篇实现与落地 + 3 篇附录</td>
+      <td>想快速抓重点、按问题查章节的人</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>AXI</strong><br>IHI0022L</td>
+      <td><a href="./AMBA-AXI-协议规范-中文译稿">AMBA-AXI-协议规范-中文译稿</a></td>
+      <td>规范全文中文译稿（MD / PDF / 320 张配图），保留原文结构与图表</td>
+      <td>想通读 AXI 规范原文的人</td>
+    </tr>
+    <tr>
+      <td><a href="./AMBA-AXI-协议规范-评注版">AMBA-AXI-协议规范-评注版</a></td>
+      <td>在译稿基础上逐节评注 354 条：关键点 / 典型场景 / 约束 / 辨析</td>
+      <td>想快速抓重点、按问题查章节的人</td>
+    </tr>
+  </tbody>
+</table>
 
 **评注版结构**
 
