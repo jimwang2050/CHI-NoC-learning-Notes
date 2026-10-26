@@ -36,31 +36,7 @@ DVM 事务仅对只读结构（如指令缓存、分支预测器和 TLB）进行
 
 图 B8.1 展示了 Non-sync 类型 DVM 事务中的各个步骤。
 
-请求方 0 ICN
-
-RN-F0 MN
-
-DVMOp(Non-sync)
-
-DBIDResp
-
-NonCopyBackWriteData
-
-SnpDVMOp_P1
-
-SnpDVMOp_P2
-
-SnpResp_I
-
-Comp
-
-只有在所有先前的 DVMOp 事务都收到 Comp 响应之后，才能发送 DVMOp(Sync)。
-
-RN-F0 MN
-
 ![Figure p341](../images/fig_p0341_1.png)
-
-![Figure p341](../images/fig_p0341_2.png)
 
 图 B8.1：Non-sync 类型 DVM 事务流程
 
@@ -100,20 +76,6 @@ RN-F0 MN
 #### B8.2.2 Sync 类型 DVM 事务流程
 
 图 B8.2 展示了 Sync DVM 事务中的流程。
-
-请求方 0  ICN
-
-RN-F0 MN
-
-DVMOp(Sync)
-
-DBIDResp
-
-NonCopyBackWriteData
-
-Comp
-
-RN-F0 MN
 
 ![Figure p343](../images/fig_p0343_1.png)
 

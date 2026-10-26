@@ -10008,31 +10008,7 @@ DVM 事务仅对只读结构（如指令缓存、分支预测器和 TLB）进行
 
 图 B8.1 展示了 Non-sync 类型 DVM 事务中的各个步骤。
 
-请求方 0 ICN
-
-RN-F0 MN
-
-DVMOp(Non-sync)
-
-DBIDResp
-
-NonCopyBackWriteData
-
-SnpDVMOp_P1
-
-SnpDVMOp_P2
-
-SnpResp_I
-
-Comp
-
-只有在所有先前的 DVMOp 事务都收到 Comp 响应之后，才能发送 DVMOp(Sync)。
-
-RN-F0 MN
-
 ![Figure p341](images/fig_p0341_1.png)
-
-![Figure p341](images/fig_p0341_2.png)
 
 图 B8.1：Non-sync 类型 DVM 事务流程
 
@@ -10072,20 +10048,6 @@ RN-F0 MN
 #### B8.2.2 Sync 类型 DVM 事务流程
 
 图 B8.2 展示了 Sync DVM 事务中的流程。
-
-请求方 0  ICN
-
-RN-F0 MN
-
-DVMOp(Sync)
-
-DBIDResp
-
-NonCopyBackWriteData
-
-Comp
-
-RN-F0 MN
 
 ![Figure p343](images/fig_p0343_1.png)
 
@@ -16580,37 +16542,7 @@ RP 上发送传输。
 
 图 B14.2 展示了使用带有三个 Resource Planes 以及专用信用与共享信用混合的通道的一个示例。
 
-0 1 2 3 4 5 6 7 8 9 10 CLK
-
-LCRDV[0]
-
-LCRDV[1]
-
-LCRDV[2]
-
-LCRDSHV
-
-FLITPEND
-
-FLITV
-
-SHAREDCRD
-
-FLITRP[1:0]
-
-FLIT[FLIT_WIDTH-1:0]
-
 ![Figure p520](images/fig_p0520_1.png)
-
-专用 RP0 信用计数
-
-专用 RP1 信用计数
-
-专用 RP2 信用计数
-
-共享信用计数
-
-![Figure p520](images/fig_p0520_2.png)
 
 图 B14.2：带有 3 个 Resource Planes 的通道示例
 
@@ -16664,17 +16596,7 @@ flit。
 
 图 B14.3 给出了 FLITPEND 信号使用的一个示例。
 
-0 1 2 3 4 5 6 7
-
-CLK
-
-FLITPEND
-
-FLITV
-
 ![Figure p523](images/fig_p0523_1.png)
-
-FLIT flit flit
 
 图 B14.3：FLITPEND 指示下一个周期存在有效 flit
 
